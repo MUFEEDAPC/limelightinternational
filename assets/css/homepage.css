@@ -1,0 +1,187 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+
+	color: #fff;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.body{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background-image: url(http://ginva.com/wp-content/uploads/2012/07/city-skyline-wallpapers-008.jpg);
+	background-size: cover;
+	-webkit-filter: blur(5px);
+	z-index: 0;
+}
+
+.grad{
+	position: absolute;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+	height: auto;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0.65))); /* Chrome,Safari4+ */
+	z-index: 1;
+	opacity: 0.7;
+}
+
+.header{
+	position: absolute;
+	top: calc(50% - 35px);
+	left: calc(50% - 255px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #fff;
+	font-family: 'Exo', sans-serif;
+	font-size: 35px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #5379fa !important;
+}
+
+
+
+
+/* .................................................... */
+
+.login{
+	position: absolute;
+	/* top: calc(50% - 75px);
+	left: calc(50% - 50px); */
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background:white;
+	/* border: 1px solid #ccc090    ; */
+	border-radius: 14px;
+	color: #0f2d49;
+	/* font-family: 'Exo', sans-serif; */
+	font-size: 16px;
+	font-weight: 400;
+	padding: 18px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	/* border: 1px solid #ccc090    ; */
+	border-radius: 2px;
+	color: #0f2d49;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background:white ;
+	border: none;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #0f2d49;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 15px 50px;
+	font-size: 17px;
+	margin-top: 10px;
+	border-radius: 40px;
+	letter-spacing: 0.02em;
+}
+input[type=text],[type=email],[type=tel], select, textarea {
+	width: 100%; /* Full width */
+padding: 12px; /* Some padding */  
+/* border: 1px solid #716b6b; Gray border */
+border-radius: 4px; /* Rounded borders */
+box-sizing: border-box; /* Make sure that padding and width stays in place */
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 16px; /* Bottom margin */
+resize: vertical
+}
+.login input[type=button]:hover{
+	/* opacity: 0.8; */
+	background:  #a27a57  ;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	/* border: 1px solid rgba(255,255,255,0.9); */
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	/* border: 1px solid rgba(255,255,255,0.9); */
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+.mmm{
+	color:#0f2d49;
+	font-weight: 700;
+	text-align: left;
+	padding-left: 13%;
+	
+    /* height: 30px; */
+}
+label {
+    display: block;
+    margin-bottom: 0;
+}
+.msgfrm{
+	height:60px !important;
+}
+
+.login ::placeholder {
+	color:#bcbfc0;
+	font-size: ;
+	opacity: 1; /* Firefox */
+  }
+  
+  .login :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #bcbfc0;;
+  }
+  
+  .login ::-ms-input-placeholder { /* Microsoft Edge */
+   color:#bcbfc0;;
+  }
