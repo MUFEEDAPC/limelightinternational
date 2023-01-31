@@ -139,22 +139,28 @@
             <img  class="cnctimage1"src="/assets/img/contact/53d014b0-5a61-4e3a-9396-8b7497323c52.png">
          </div>
          <div>
-        <form id="contact_form">
+        <form  class="contactform1" id="contact_form">
             
             <div class="input-group">
                 <label class="spclr" for="fname"> Name</label>
-                <input class="spclr" type="text" id="fname" name="firstname" placeholder="Enter your name">
+                <input class="spclr" type="text" id="name" name="enq_name" placeholder="Enter your name">
             </div> 
 
             <div class="input-group">
                 <label class="spclr" for="fname"> Email</label>
-                <input type="email" id="fname" name="email" placeholder="Enter your mail ID">
+                <input type="email" id="email" name="enq_email" placeholder="Enter your mail ID">
              
             </div>
             
             <div class="input-group">
                 <label  class="spclr" for="fname"> Phone</label>
-                <input type="tel" id="fname" name="number" placeholder="Enter your mobile number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                <input type="text" id="subject" name="enq_phone" placeholder="Enter your mobile number" >
+
+               
+            </div>
+            <div class="input-group" style="display:none">
+                <label  class="spclr" for="fname"> Phone</label>
+                <input type="text" id="subject" value="" name="enq_message" placeholder="Enter your mobile number" >
 
                
             </div>
@@ -175,6 +181,9 @@
                     <option value="malayalam">Corporate Photography </option>
                   </select>
             </div>
+
+
+
             <!-- <div class="btn-box">
                 <input type="submit" value="Submit">
                 <a href="#" class="theme-btn btn-style-one"  >submit</a>
@@ -216,24 +225,25 @@
               <!-- <h1>Capture  beautifull <br> moments with limelight</h1> -->
               <h1>Capture the  beauty<br> with Limelight</h1>
       </div>
-      <div class="loginsectionmain wow fadeInRight">
-        <div class="login">
-            <label class="mmm" for="fname"> Name</label>
-            <input type="text" placeholder=" Enter your name" name="user"><br>
-            <label class="mmm" for="fname"> Phone Number</label>
-            <input type="text" placeholder="Enter your phone number" name="password"><br>
-            <label class="mmm" for="fname"> Message</label>
-            <input type="text" class="msgfrm" placeholder="Message" name=""><br>
-
+      <div class="loginsectionmain wow fadeInRight" >
+        <form class="login" id="contact_form1" >
+            <label class="mmm" > Name</label>
+                <input type="text"  name="enq_name" placeholder=" Enter your name" ><br>
+            <label class="mmm"  > Phone Number</label>
+                 <input type="text" name="enq_phone" placeholder="Enter your phone number" ><br>
+            <label class="mmm" > Message</label>
+                 <input type="text"  name="enq_message" class="msgfrm" placeholder="Message" ><br>
+             <label class="mmm" style="display:none"> Message</label>
+                 <input type="text"  name="enq_message" class="msgfrm" placeholder="Message"  style="display:none"><br>
             <div class="btn-box">
-                <a href="#" class="theme-btn btn-style-one "  >Get a quote</a>
+                <div class="theme-btn btn-style-one "> <button type="submit" >Get a quote </button></div>
                 <!-- <input type=""  class="theme-btn btn-style-one " value="Get a quote"> -->
             </div>
             <!-- <div class="btn-box">
                 <input type="button" value="Get a quote">
             </div> -->
            
-         </div>            
+         </form>            
             
       </div>
       
@@ -248,15 +258,19 @@
                 <div class="inner-column">
                     <div class="sec-title">
                         <span class="title">About Company</span>
-                        <h2>We are leader in <br>photography solutions  Since 2019</h2>
+                        <h2>Leaders in <br>photography solutions  Since 2019</h2>
                     </div>
-                    <div class="text">Our team at Limelight International specializes in capturing life's most precious moments through the art of photography and videography. 
-                        We offer a wide range of services to meet the needs of our clients, including wedding photography and videography, 
-                        corporate event photography and videography, family portraits, special occasion photography and videography, aerial photography and videography, and 360-degree virtual tour photography.</div>
+                    <div class="text">We, at Limelight International, strongly believe that a good photo speaks louder than words! Keeping this in mind,
+                         we have selected top-notch photographers from around the world to provide you with the best photography solutions. Our dedicated team members 
+                         are professionals with multiple years of experience, who focus on capturing your memories while you live them! Our policies, company ethics and compliance are
+                          aligned with the values of the United Arab Emirates.
+                         We also provide a dedicated women photographers' team, incase you have a "women only" event!</div>
                     <ul class="list-style-one">
-                        <li>Women Photographers available for women-only events</li>
-                        <li>You have the option to book the same photographer for all your events throughout the year/month!</li>
-                        <li>Provide photographers for a single shoot</li>
+                        <li>Real Estate photography/Videography</li>
+                        <li>360-degree virtual tour photography and Aerial photography/videography</li>
+                        <li>Commercial Photography/Videography</li>
+                        <li>Women photographers for women-only events</li>
+                        <li>Family events photography and Videography</li>
                         
                     </ul>
                     <div class="btn-box">
@@ -268,8 +282,8 @@
             <!-- Image Column -->
             <div class="image-column col-lg-6 col-md-12 col-sm-12">
                 <div class="inner-column wow fadeInLeft">
-                    <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="assets/img/about/pexels-yan-krukau-4667802.jpg" alt=""></a></figure>
-                    <figure class="image-2"><a href="#" class="lightbox-image" data-fancybox="images"><img src="assets/img/about/pexels-alana-sousa-6707838.jpg" alt=""></a></figure>
+                    <figure class="image-1"><a href="#" class="lightbox-image" data-fancybox="images"><img src="assets/img/about/WhatsApp Image 2023-01-30 at 3.00.58 AM.jpeg" alt=""></a></figure>
+                    <figure class="image-2"><a href="#" class="lightbox-image" data-fancybox="images"><img src="assets/img/about/WhatsApp Image 2023-01-30 at 3.00.58 AM (1).jpeg" alt=""></a></figure>
                 </div>
             </div>
         </div>
@@ -288,7 +302,7 @@
                 </div>
                 <div class="rowservice">
                     <!-- <p>"Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever... it remembers little things, long after you have forgotten everything."</p> -->
-                    <p>"We use drones to capture stunning aerial footage of your events, properties, or landscapes. Our team of certified drone pilots will work closely with you to understand your needs and create a package that meets your objectives."</p>
+                    <!-- <p>"We use drones to capture stunning aerial footage of your events, properties, or landscapes. Our team of certified drone pilots will work closely with you to understand your needs and create a package that meets your objectives."</p> -->
                 </div>
                 <div class="btn-box">
                     <a href="Commercial Photography.html" class="theme-btn btn-style-one" >Learn More</a>
@@ -447,7 +461,7 @@
                 <div class="row servicerow ">
                     <h1 class="h1same">
                         <!-- WE are capturing moments -->
-                        Capture every moment as if its  your last
+                        Lights, Camera, Capture!
                     </h1>
                 </div>
                 <div class="rowservice">
@@ -569,10 +583,28 @@
             <!--Common Title-->
               <div class="col-lg-12">
                  <div class="common-title padding-bottom-50 ">
-                    <h2 class="heading spheading">PACKAGES</h2>
-                    <p class="packagep">Our team is dedicated to providing high-quality photography and videography services and we are committed to meeting the needs of our clients. Contact us today to discuss your needs and create a personalized package that meets your objectives.</p>
-                
-                 </div>
+                    <h2 class=" spheading realheading"> Real Estate Packages</h2>
+                    <div class="row">
+                        <div class="content-column col-lg-6 col-md-12 col-sm-12 contentpackage">
+                            <p class="packagep">"Are you looking to attract more buyers and enhance your real estate listings ? Look no further than our professional
+                                photography service. We specialize in capturing the beauty and unique features of each property, ensuring that your listings stand out 
+                                from the competition.With our monthly subscription, you'll have access to professional photography at an affordable price, without having 
+                                to worry about the hassle and expense of booking a photographer for each individual listing!"</p>
+                        
+                        </div>  
+                        <div class="content-column col-lg-6 col-md-12 col-sm-12 content12">
+                                <h5 class=" sppackage" style="opacity:1">All our monthly subscription packages include:</h5>
+                                <ul class="list-style-one points">
+                                    <li>A dedicated photographer for all of your listings</li>
+                                    <li>A dedicated driver with car and fuel</li>
+                                    <li>High-resolution images of the interior and exterior of each property</li>
+                                    <li>Virtual Tours (at additional cost)</li>
+                                    <li>Turnaround time of 24-48 hours</li>
+                                    <li>Unlimited revisions and a license for commercial use of Photos/Videos</li>
+                                </ul>
+                        </div>
+                     </div>
+                </div>
                 
               </div>                  
               <div class="pricing-wrap" style="justify-content:center">                 
@@ -673,7 +705,7 @@
                                     <h4 class="heading-4"> Joseph-kunnappallil</h4>
                                     <h6 class="heading-6">Lawyer </h6>
                                     <div class="padding-top-20 padding-bottom-30">
-                                        <p> “ We recently used Picture Perfect for a family portrait and we couldn't be happier with the results. They were patient and professional, 
+                                        <p> “ We recently used Limelight for a family portrait and we couldn't be happier with the results. They were patient and professional, 
                                             and they truly captured the personalities of each family member. The final product is something we will cherish for years to come. We highly recommend their services.”</p>
                                     </div> 
                                 </div> 
@@ -742,60 +774,60 @@
             </li>
             <li>
                 <span><i class="fas fa-envelope"></i></span>
-                <span>Limelightinternational.ae</span>
+                <span>Info@limelightinternational.net</span>
             </li>
             <li>
                 <span><i class="fas fa-mobile-alt"></i></span>
-                <span>971544326040</span>
+                <span>+971544326040</span>
             </li>
         </ul>
         <ul class="sci">
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100089537034421&mibextid=ZbWKwL"><i class="fab fa-facebook-f"></i></a></li>
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/lime_lightinternational/"><i class="fab fa-instagram"></i></a></li>
             <li><a href="#"><i class="fab fa-codepen"></i></a></li>
             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
         </ul>
     </div>
    <div class="column contact-form">
     <h2>Get in touch with us</h2>
-       <form action="">
+       <form action="" id="contact_form2">
            <div class="input-group short">
-               <input type="text" name="" required>
+               <input type="text" name="enq_name" required>
                <span>First name</span>
            </div>
             <div class="input-group short">
-                <input type="text" name="" required>
+                <input type="text" name="enq_name" required>
                 <span>Last name</span>
             </div>
             <div class="input-group short">
-                <input type="text" name="" required>
-                <span>Mobil Number</span>
+                <input type="text" name="enq_phone" required>
+                <span>Mobile Number</span>
             </div>
             <div class="input-group short">
-                <input type="text" name="" required>
+                <input type="text" name="enq_email" required>
                 <span>Email Address</span>
             </div>
             <div class="input-group short">
-                <input  type="date" name="" required>
+                <input  type="date" name="enq_date" required>
                 <!-- <span>Date</span> -->
             </div>
             <div class="input-group short">
-                <input class="dateofrm" type="text" name="" required>
+                <input class="dateofrm" type="text" name="enq_descr" required>
                 <span>Description</span>
             </div>
             <div class="input-group long">
-                <textarea type="text-f" name="" required></textarea>
+                <textarea type="text-f" name="enq_message" required></textarea>
                 <span>Write your message here</span>
             </div>
             <div class="btn-box">
-                <a href="#" class="theme-btn btn-style-one" type="submit" value="send" >Get a quote</a>
+                <button  class="theme-btn btn-style-one" type="submit" value="send" >Get a quote</button>
             </div>
             <!-- <button type="submit" value="send" >Get a quote</button>          -->
        </form>
    </div>
 </section>
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js">
+<!-- <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"> -->
 
 </script>
 
@@ -808,30 +840,17 @@
 
     }
 
-    document.querySelector("#contact_form").addEventListener("submit", function(event) { 
-        event.preventDefault();
-        swal("Thankyou!", "we will get back to you soon", "success").then(
-            function(){
-                location.reload();
-            }
-        )
+    // document.querySelector("#contact_form").addEventListener("submit", function(event) { 
+    //     event.preventDefault();
+    //     swal("Thankyou!", "we will get back to you soon", "success").then(
+    //         function(){
+    //             location.reload();
+    //         }
+    //     )
 
-    }, false);
+    // }, false);
 
-    // <div class="submit-section">
-         
-    //              <input type="submit" class="submit-button"/>
-    //         </div>
-
-    document.querySelector("#input-group").addEventListener("submit", function(event) { 
-        event.preventDefault();
-        swal("Thankyou!", "we will get back to you soon", "success").then(
-            function(){
-                location.reload();
-            }
-        )
-
-    }, false);
+ 
 
 
    function toggleForm(){
@@ -864,25 +883,7 @@
                         
                     </div>
                 </div>
-                <!-- <div class="col-md-6 col-lg-4">
-                    <div class="widget2">
-                        <h5>
-                            Instagram feed
-                        </h5>
-                        <div class="media">
-                            <img class="img-fluid" src="/assets/img/footer/pexels-alena-yanovich-8185815.jpg" alt="">
-                            <img class="img-fluid" src="assets/img/footer/pexels-yelena-odintsova-11256785.jpg" alt="">
-                            <img class="img-fluid" src="assets/img/footer/pexels-konstantin-mishchenko-1926769.jpg" alt="">
-                            
-                        </div>
-                        <div class="media">
-                            <img class="img-fluid" src="assets/img/footer/pexels-kássia-melo-14447602.jpg" alt="">
-                            <img class="img-fluid" src="assets/img/footer/pexels-евгений-шухман-9721888.jpg" alt="">
-                            <img class="img-fluid" src="assets/img/footer/pexels-cottonbro-studio-4114831.jpg" alt="">
-                           
-                        </div>
-                    </div>
-                </div> -->
+        
                 <div class="col-sm-6 col-lg-2">
                     <div class="widget3">
                         <h5>
@@ -942,7 +943,7 @@
                         <div class="socialLinks">
                             <ul>
                                 <li>
-                                    <a href="#">
+                                    <a href="https://www.facebook.com/profile.php?id=100089537034421&mibextid=ZbWKwL">
                                         <i class="fab fa-facebook-f"></i>
                                     </a>
                                 </li>
@@ -984,7 +985,7 @@
     </button>
 
 </a> -->
-<a  class="fixed_btn scroll-to-top"   href="https://wa.me/+971 54 432 6040"
+<a  class="fixed_btn scroll-to-top"   href="https://wa.me/+971505541256"
 
 target="_blank"
 rel="noopener noreferrer">
@@ -1035,5 +1036,10 @@ rel="noopener noreferrer">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <script src="assets/js/animation.js"></script>
     <!-- <script src="assets/js/preloader.js"></script> -->
+    <!-- contactform js -->
+    <script src="./assets/contactform/contactform.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="./assets/contactform/contactform 1.js"></script>
+    <script src="./assets/contactform/contactform2.js"></script>
     </body>
     </html>

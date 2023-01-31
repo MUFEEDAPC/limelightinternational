@@ -8771,7 +8771,7 @@ resize: vertical /* Allow the user to vertically resize the textarea (not horizo
 .cnctimage1{
   height:456px;
 }
-#contact_form{
+.contactform1{
   margin-top: 15%;
   margin-bottom: 10%;
 }
@@ -8868,6 +8868,26 @@ background: var(--main-color-one-two);
 .mn{
   margin-left: 0px;
 }
+.points li{
+  font-size:12px !important;
+}
+.contentpackage{
+  padding-top: 0px !important;
+}
+.realheading{
+  font-size: 30px !important;
+}
+.sppackage{
+font-size:26px !important;
+letter-spacing: 0 !important;
+
+}
+.pricing .list-style-one li{
+margin-bottom: 0;
+}
+.content12{
+  margin-left: 22px !important;
+}
 }
 
 .testimonial-section .row img {
@@ -8900,7 +8920,7 @@ background: var(--main-color-one-two);
   letter-spacing: 1px;
   font-size: 16px;
   opacity: 0.5;
-  padding: 0 4%;
+  /* padding: 0 4%; */
 }
 .logoheader{
   width:200px;
@@ -8911,4 +8931,35 @@ background: var(--main-color-one-two);
 }
 .mn{
   margin-left: 2px;
+}
+
+.points li{
+  color: #ccc090 !important;
+  opacity: 0.5;
+  letter-spacing: 1px;
+  text-align: left;
+}
+.sppackage{
+  /* opacity:1 !important; */
+
+}
+.sppackage{
+  color: #ccc090    ;
+  margin-top: 5px;
+  font-family: 'Open Sans', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 1px;
+  font-size: 30px;
+  /* font-size: 16px; */
+}
+.realheading{
+  font-size:48px  ;
+  margin-bottom: 5% !important;
+  color: #ccc090 ;
+}
+.contentpackage{
+  /* text-align: center; */
+  /* position: absolute; */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 95px;
 }
