@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+  
+  /* Responsive Image Utility Classes  */
+  
+  .bg-image {
+      background-color: rgb(240,240,240);
+    background-image: url('https://source.unsplash.com/kfSjyxAWhEc');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+  
+  .bg-1 {
+    background-image: url('/assets/img/service3/employe/pexels-andrea-piacquadio-927022.jpg'); 
+    background-position: 70% 50%; 
+  }
+  .bg-2 {
+    background-image: url('/assets/img/service3/professional/pexels-cottonbro-studio-4098279.jpg'); 
+    background-position: 50% 50%; 
+  }
+ 
+  .bg-3 {
+    background-image: url('/assets/img/service3/vipmeeting/pexels-cottonbro-studio-7438102.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-4 {
+    background-image: url('/assets/img/service3/employe/pexels-christina-morillo-1181649.jpg'); 
+    background-position: 50% 80%; 
+  }
+  .bg-5 {
+    background-image: url('/assets/img/service3/professional/pexels-cottonbro-studio-4101136.jpg'); 
+    background-position: 50% 60%; 
+  }
+  .bg-6 {
+    background-image: url('/assets/img/service3/vipmeeting/pexels-8068833.jpg'); 
+    background-position: 50% 50%; 
+  }
+
+
+  .bg-7 {
+    background-image: url('/assets/img/service3/employe/pexels-cottonbro-studio-3205567.jpg'); 
+    background-position: 70% 50%; 
+  }
+  .bg-8 {
+    background-image: url('/assets/img/service3/professional/pexels-cottonbro-studio-5657672.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-9 {
+    background-image: url('/assets/img/service3/vipmeeting/pexels-fauxels-3182812.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-10 {
+    background-image: url('/assets/img/service3/employe/pexels-ekaterina-bolovtsova-4050220.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-11 {
+    background-image: url('/assets/img/service3/professional/pexels-gustavo-fring-3875646.jpg'); 
+    background-position: 50% 80%; 
+  }
+  .bg-12 {
+    background-image: url('/assets/img/service3/vipmeeting/pexels-fauxels-3184360.jpg'); 
+    background-position: 50% 60%; 
+  }
+  .bg-13 {
+    background-image: url('/assets/img/service3/employe/pexels-jopwell-2422278.jpg'); 
+    background-position: 50% 60%; 
+  }
+
+
+  .bg-14 {
+    background-image: url('/assets/img/service3/vipmeeting/pexels-mikhail-nilov-6931385.jpg'); 
+    background-position: 70% 50%; 
+  }
+  .bg-15 {
+    background-image: url('/assets/img/service3/professional/pexels-mart-production-7222975.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-16 {
+    background-image: url('/assets/img/service3/employe/pexels-karolina-grabowska-4467687.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-17 {
+    background-image: url('/assets/img/service3/vipmeeting/pexels-pavel-danilyuk-7868982.jpg'); 
+    background-position: 50% 50%; 
+  }
+  .bg-18 {
+    background-image: url('/assets/img/service3/professional/pexels-mikhail-nilov-8942127.jpg'); 
+    background-position: 50% 50%; 
+  }
+  
+  /* Filterable Gallery Styles   */
+  
+  .filterable-gallery .bg-image {
+    padding-bottom: 100%;
+  }
+  
+  .filterable-gallery {
+    padding: 1rem;
+  }
+  .filterable-gallery [class*=col] {
+    padding: 0.3rem;
+  }
+  .hidden {display: none;}
+  
+  /* Filter navigation */
+  .portfolio-filter span {
+    /* text-transform: uppercase;  */
+    padding: 11px 17px;
+    margin: 0.2rem;
+    border-radius: 30px;
+    /* border: 1px solid #0f2d49; */
+    background-color: #ccc090;
+    cursor: pointer;
+    /* margin:2rem; */
+    justify-content: space-around;
+  }                   
+  .portfolio-filter .active {
+    /* color: #0f2d49   ; */
+    /* text-decoration: underline; */
+    background-color: #a27a57;
+  }
+  .gallery-item{
+    cursor: pointer;
+  }
+  
+  
+  /* Demo Styling (no need to copy) */
+  
+  body {
+    font-family: 'Open Sans';
+  /*   background-color: rgb(245,245,245); */
+    /* padding: 5%; */
+    text-align: center;
+  }
+  
+  h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  
+  @media (max-width:426px){
+    .filterable-gallery{
+      padding:0rem;
+    }
+    .portfolio-filter span {
+    padding:6px 17px;
+
+    }
+    .lightbximg{
+      top:40% !important;
+      left: 25% !important;
+      position: absolute !important;
+      transform: translate(-25%,-37%) !important;
+    
+    
+    }
+    .close i{
+      top: 15px !important;
+    }
+    }
+
+
+
+
+  .gallery {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    padding: 40px 10px;
+    display: none;
+    box-sizing: border-box;
+    z-index: 200;
+    /* position: relative; */
+}
+
+.gallery > img {
+    max-height: 100%;
+    width: auto;
+}
+
+.close i {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+.bar {
+    display: block;
+    position: absolute;
+    top: 13px;
+    float: left;
+    width: 30px;
+    border-bottom: 4px solid #fff;
+    transform: rotate(45deg);
+}
+
+.bar:first-child {
+    transform: rotate(-45deg);
+}
